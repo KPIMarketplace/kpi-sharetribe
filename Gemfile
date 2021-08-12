@@ -1,6 +1,6 @@
-source 'https://rubygems.org'
-
 ruby '2.6.5'
+#ruby=2.6.5@marketplace
+source 'https://rubygems.org'
 
 gem 'rails', '5.2.6'
 
@@ -16,6 +16,9 @@ gem 'jquery-rails', '~> 4.3.1'
 
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
 gem "passenger", '~> 6.0.1'
+
+# Color to the prints on console (PUTS)
+gem 'colorize', '~> 0.8.1'
 
 gem "mysql2", '0.4.10'
 gem "bcrypt", '3.1.12'

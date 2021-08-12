@@ -136,6 +136,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     color (1.8)
+    colorize (0.8.1)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -658,6 +659,7 @@ DEPENDENCIES
   cocoon
   coffee-rails (~> 4.2.2)
   color (~> 1.8)
+  colorize (~> 0.8.1)
   compass-rails (~> 3.0.2)
   connection_pool (~> 2.2.1)
   countries (~> 2.0.8)
